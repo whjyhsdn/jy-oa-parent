@@ -1,0 +1,9 @@
+server:
+  port: 8801
+spring:
+  datasource:
+    username: zhangsan
+    password: zhangsan
+    url: jdbc:mysql://192.168.10.101:3306/guigu-oa?serverTimezone=GMT%2B8&useSSL=false&characterEncoding=utf-8
+    type: org.springframework.jdbc.datasource.DriverManagerDataSource
+    driver-class-name: com.mysql.jdbc.Driver
